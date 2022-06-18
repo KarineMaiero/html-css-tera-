@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Open+Sans&family=Roboto&family=Source+Sans+Pro:wght@300;400;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif, serif ;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    letter-spacing: 3px;
+    margin: 100px auto 25px auto;
+    font-size: 45px;
+    text-align: center;
+}
+
+/*Seção de apresentação*/
+
+#initial {
+    background-image: url('./imagens/alldrinks.jpg');
+    background-size: cover;
+    background-position: top center;
+    z-index: 1;
+    min-height: 80vh;
+    width: 100%;
+}
+
+#nav {
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    word-spacing: 80px;
+    letter-spacing: 2px;
+    background-color: black;
+    height: 40px;
+    padding: 15px;
+}
+
+#apresentation {
+    text-align: center;
+    margin: 50px;
+    width: auto;
+    height: 600px;
+}
+
+/*Seção de footer*/
+
+#footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    width: border-box;
+    height: 70px;
+}
+
+#imgfooter {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+/*Seção de produtos*/
+
+#images-products {
+    width: 600px;
+    border-radius: 50px;
+}
+
+#products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.description-drinks {
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+}
